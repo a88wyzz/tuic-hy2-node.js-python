@@ -15,10 +15,7 @@ curl -Ls https://raw.githubusercontent.com/a88wyzz/tuic-hy2-node.js-python/main/
 
 * 自适应端口，无需再手动设置
 
-* TUIC版本：1.6.5
-
-   ⚙️ 杂项任务
-      将日志更改为跟踪
+* TUIC版本：1.6.6
 
 ```
 curl -Ls https://raw.githubusercontent.com/a88wyzz/tuic-hy2-node.js-python/main/tuic.sh | sed 's/\r$//' | bash
