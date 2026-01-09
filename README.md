@@ -22,9 +22,7 @@ curl -Ls https://raw.githubusercontent.com/a88wyzz/tuic-hy2-node.js-python/main/
 ```
 
 
-# 3.TUIC在Nodejs/Python文件复制部署（适用无法执行bash命令的场景）
-
-    上传文件在tuic-copy文件夹内
+# 3.TUIC在Nodejs/Python文件复制部署（适用无法执行bash命令的场景）上传文件在tuic-copy文件夹内
 
 * 自适应端口，无需手动编辑文件
 * 新增每天北京时间0点自动重启，规避停机问题（无需重新部署，节点有效）
