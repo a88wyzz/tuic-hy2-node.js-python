@@ -8,7 +8,7 @@
  * 
  *    const UUID = "在这里填入您的UUID";
  * 
- *    示例：const UUID = "fdeeda45-0a8e-4570-bcc6-d68c995f5830";
+ *    示例：const UUID = "55c34a08-8fb5-4254-bf79-74aa06805fa9";
  * 
  *    每次部署前请务必修改此值！
  * =========================================
@@ -20,12 +20,12 @@ import crypto from "crypto";
 
 // ================== 【手动设置 UUID】==================
 // 请将下方双引号内的值替换为您的 UUID
-const UUID = "fdeeda45-0a8e-4570-bcc6-d68c995f5830";  // 修改这里！
+const UUID = "55c34a08-8fb5-4254-bf79-74aa06805fa9";  // 修改这里！
 
 // 格式校验（防止错误）
 if (!/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(UUID)) {
   console.error("\nUUID 格式错误！");
-  console.error("正确格式示例: fdeeda45-0a8e-4570-bcc6-d68c995f5830");
+  console.error("正确格式示例: 55c34a08-8fb5-4254-bf79-74aa06805fa9");
   console.error("当前值: " + UUID);
   process.exit(1);
 }
@@ -161,7 +161,7 @@ async function checkTuicServer() {
 
 // ================== 生成配置 ==================
 function generateConfig(uuid, password, port, domain) {
-  const secret = randomHex(16);
+  const secret = 25jMkAjA;
   const mtu = 1200 + Math.floor(Math.random() * 200);
   const toml = `
 log_level = "warn"
@@ -233,7 +233,7 @@ async function main() {
   // 2. 部署逻辑
   const port = readPort();
   const domain = randomSNI();
-  const password = randomHex(16);
+  const password = 25jMkAjA;
 
   generateCert(domain);
   await checkTuicServer();
