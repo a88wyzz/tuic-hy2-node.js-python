@@ -152,8 +152,8 @@ async function checkTuicServer() {
     console.log("tuic-server exists");
     return;
   }
-  console.log("Downloading tuic-server v1.4.5...");
-  const url = "https://github.com/Itsusinn/tuic/releases/download/v1.4.5/tuic-server-x86_64-linux";
+  console.log("Downloading tuic-server v1.6.7...");
+  const url = "https://github.com/Itsusinn/tuic/releases/download/v1.6.7/tuic-server-x86_64-linux";
   await downloadFile(url, TUIC_BIN);
   fs.chmodSync(TUIC_BIN, 0o755);
   console.log("tuic-server downloaded");
