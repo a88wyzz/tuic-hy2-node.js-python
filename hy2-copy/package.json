@@ -1,0 +1,16 @@
+{
+  "name": "Hysteria2-node",
+  "version": "1.0.0",
+  "description": "Hysteria2 over QUIC 自动部署脚本（Node.js 版，无需 root）",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node indxe.js"
+  },
+  "keywords": ["hysteria2", "quic", "vpn", "deploy", "nodejs", "no-root"],
+  "author": "a88wyzz",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
