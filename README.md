@@ -2,7 +2,7 @@
 
 * 更新自适应端口，无需再手动设置
 
-* Hysteria2版本：2.6.5
+* Hysteria2版本：2.7.0
 
 ```
 curl -Ls https://raw.githubusercontent.com/a88wyzz/tuic-hy2-node.js-python/main/hy2.sh | sed 's/\r$//' | bash
@@ -30,5 +30,4 @@ curl -Ls https://raw.githubusercontent.com/a88wyzz/tuic-hy2-node.js-python/main/
   2.启动命令通常需要改为：node index.js
   3.开机、完成部署、复制节点链接
 * TUIC版本：1.6.7
-* hy2由于较高QoS阻断率，暂停更新
 * 由于原版定时重启后密码会变动，现更改为固定密码，自己编辑index.js修改uuid和密码。
