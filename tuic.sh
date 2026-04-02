@@ -69,7 +69,7 @@ check_tuic_server() {
     return
   fi
   echo "📥 Downloading tuic-server..."
-  curl -L -o "$TUIC_BIN" "https://github.com/Itsusinn/tuic/releases/download/v1.6.7/tuic-server-x86_64-linux"
+  curl -L -o "$TUIC_BIN" "https://github.com/Itsusinn/tuic/releases/latest/download/tuic-server-x86_64-linux"
   chmod +x "$TUIC_BIN"
 }
 
