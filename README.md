@@ -4,7 +4,7 @@
 
 * Hysteria2
 
-```
+```bash
 curl -Ls https://raw.githubusercontent.com/a88wyzz/tuic-hy2-node.js-python/main/hy2.sh | sed 's/\r$//' | bash
 ```
 
@@ -17,7 +17,7 @@ curl -Ls https://raw.githubusercontent.com/a88wyzz/tuic-hy2-node.js-python/main/
 
 * TUIC
 
-```
+```bash
 curl -Ls https://raw.githubusercontent.com/a88wyzz/tuic-hy2-node.js-python/main/tuic.sh | sed 's/\r$//' | bash
 ```
 
